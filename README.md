@@ -2,7 +2,7 @@
 
 A collection of small, low stakes and low effort tools.
 No logins, no registration, no data collection.
-I can't believe I have to say that. 
+I can't believe I have to say that.
 Long live the handmade web.
 
 ## Included tools
