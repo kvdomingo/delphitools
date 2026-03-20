@@ -18,6 +18,8 @@ FROM nginx:alpine AS runner
 
 RUN sed -i 's/worker_processes.*/worker_processes 1;/' /etc/nginx/nginx.conf
 
+COPY nginx/default.conf /etc/nginx/conf.d/default.conf
+
 COPY --from=builder /app/out /usr/share/nginx/html
 
 EXPOSE 80
